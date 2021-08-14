@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HospitalDetailEntry</title>
+		<link rel="stylesheet" type="text/css" href="HospitalDetailsEntry.css">
+	</head>
+	<body>
+		<div class="page">
+			<div class = "navbar">
+				<img src ="#" class ="logo">
+				<div class ="elementsContainer">
+					<input type="text" name="" placeholder="search" class="search"> 
+				</div>
+				<nav>
+					<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">PATIENT</a></li>
+							<li><a href="HospitalDetailsEntry.html">HOSPITAL</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="row">
+				<ul>
+					<li>
+						<div class="HospitalBlock">
+							<label for = "HospitalName">HospitalName</label>
+						</div>
+					</li>
+					<li>
+						<span></span>
+					</li>
+					<li>
+						<div class="block" id="spacing">
+							<label for="beds">Beds</label>
+						</div>
+					</li>
+					<li>
+						<div class="block">
+							<label for="Oxygen">Oxygen</label>
+						</div>
+					</li>
+					<li>
+						<div class="block">
+							<label for="Plasma">Plasma</label>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul>
+					<li>
+						<div class="Hospitalinput">
+							<input type="text" placeholder="HospitalName" id = "HospitalName">
+						</div>
+					</li>
+					<li>
+						<span></span>
+					</li>
+					<li>
+						<div class="blockinput" >
+							<input type ="number" placeholder = "Beds" id="Beds" min="0">
+						</div>
+					</li>
+					<li>
+						<div class="blockinput">
+							<input type ="number" placeholder = "Oxygen" id="Oxygen" min="0">
+						</div>
+					</li>
+					<li>
+						<div class="blockinput">
+							<input type ="number" placeholder = "Plasma" id="Plasma" min="0">
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class = "Display">
+				<input type="text" placeholder="Display">
+			</div>
+			<div class="btn">
+				<button>Submit</button>
+			</div>
+		</div>
+	</body>
+</html>

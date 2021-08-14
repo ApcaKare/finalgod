@@ -1,0 +1,61 @@
+
+	<head>
+    <title>guntur</title>
+    <center>
+    <h1>Guntur</h1>
+
+
+
+
+
+
+
+	<div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center">Today's update</h2>
+            <h4 class="text-center"><em>Total: {{excel|length}}</em></h4>
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>number</th>
+                        <th>user id</th>
+                        <th>n1</th>
+                        <th>n2</th>
+                        <th>n3</th>
+                        <th>n4</th>
+                        <th>n5</th>
+                        <th>n6</th>
+                        <th>n7</th>
+                        <th>n8</th>
+                        <th>n9</th>
+                        <th>n10</th>
+                        <th>n12</th>
+                        <th>n13</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for msg in excel %}
+                        <tr>
+                            <td>{{msg.num}}</td>
+                            <td>{{msg.userid}}</td>
+                            <td>{{msg.n1}}</td>
+                            <td>{{msg.n2}}</td>
+                            <td>{{msg.n3}}</td>
+                            <td>{{msg.n4}}</td>
+							<td>{{msg.n5}}</td>
+							<td>{{msg.n6}}</td>
+							<td>{{msg.n7}}</td>
+							<td>{{msg.n8}}</td>
+							<td>{{msg.n9}}</td>
+							<td>{{msg.n10}}</td>
+							<td>{{msg.n11}}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
