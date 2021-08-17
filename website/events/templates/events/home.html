@@ -1,10 +1,8 @@
-{% extends 'events/base.html' %}
 
-{% block content %}
-<!Docutype html>
+<!Doctype html>
 <html>
 	<head>
-		<meta name="viewport" conyent="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>HomePage</title>
 		<style>
 			*{
@@ -14,22 +12,41 @@
 				flex-direction: row;
 			}
 			.container{
-				width : 100%;
 				height: 100%;
-				background-position: fit;
-				background-image : url(1.jpg);
+	width: 100%;
+	colour: bright ;
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+	position: absolute;
+			}
+			.pic{
+				background-image: url("4.jpg");
 				background-size: cover;
-				padding-left: 8%;
-				padding-right: 8%;
-				box-sizing: border-box;
-				padding: 1% 50px;
-				margin: 0 auto;
-				flex: auto;
+				background-repeat: no-repeat;
+				padding-left: 450px;
+				background-attachment: scroll;
+
+
+			}
+			.pic1
+			{
+				background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(5.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				padding-left: 450px;
+
 			}
 			.navbar{
 				height: 12%;
 				display: flex;
 				align-items: center;
+				border-radius: 5px;
+				background: aliceblue;
+				border:  2px ;
+				height: 17%;
+
 			}
 			.elementsContainer{
 				padding-left: 20%;
@@ -41,6 +58,7 @@
 				text-align: center;
 				border-radius: 50px;
 				font-size: 16px;
+				background: #7395AE ;
 			}
 			.logo{
 				width: 50px;
@@ -54,10 +72,11 @@
 				list-style: none;
 				display: inline-block;
 				margin-left: 45px;
+
 			}
 			nav ul li a{
 				text-decoration: none;
-				color: #fff;
+				color: darkgrey;
 				font-size: 13px;
 			}
 			button{
@@ -66,28 +85,29 @@
 				padding: 10px 0px;
 				text-align: center;
 				font-family: poppins;
-				font-size: 16px;
+				font-size: 14px;
 				font-weight: 400;
-				color: #000;
+				color: black;
+				background-color: transparent;
 				position: relative;
-				letter-spacing: 1.5px;
 				border: 5px solid #000;
 				text-transform: uppercase;
 				letter-spacing: 1px;
 				cursor: pointer;
 				border-radius: 100px;
 				transition: 5s;
+				border-spacing: 3px;
+
+
 			}
 			.button
 			{
-				box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
-			}
-		</style>
+				box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4e 		</style>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="styslesheet">
 	</head>
 	<body>
 		<div class ="container">
-			<div class = "navbar">
+			<!--<div class = "navbar">
 				<img src ="#" class ="logo">
 				<div class ="elementsContainer">
 					<input type="text" name="" placeholder="search" class="search">
@@ -98,50 +118,69 @@
 							<li><a href="patient loginpage.html">PATIENT</a></li>
 							<li><a href="hospitelloginandregisterpage.html">HOSPITAL</a></li>
 					</ul>
-				</nav>
+				</nav>-->
 			</div>
+			<div class = "pic">
 
-                <a href='guntur'>
-					<button>guntur</button>
-				</a>
-				<a  href='Anantapur.html'>
+
+				<a  href='Anantapur'>
 					<button>Anantapur</button>
 				</a>
-				<a href='Chittoor.html'>
+				<a href='Chittoor'>
 					<button>Chittoor</button>
 				</a>
-				<a href='east godavari.html'>
+				<a href='east godavari'>
 					<button>east godavari</button>
 				</a>
-
-				<a href='kadapa.html'>
+				<a href="guntur">
+					<button>guntur</button>
+				</a>
+				<a href='kadapa'>
 					<button>kadapa</button>
 				</a>
-				<a href='krishna.html'>
+				<a href='krishna'>
 					<button>krishna</button>
 				</a>
-				<a href='kurnool.html'>
+				<a href='kurnool'>
 					<button>kurnool</button>
 				</a>
-				<a href='nellore.html'>
+				<a href='nellore'>
 					<button>nellore</button>
 				</a>
-				<a href='prakasam.html'>
+				<a href='prakasam'>
 					<button>prakasam</button>
 				</a>
-				<a href='srikakulam.html'>
-					<button>srikakulam</button>
+				<a href='srikakulam'>
+					<button >srikakulam</button>
 				</a>
-				<a href='visakhapatnam.html'>
-					<button>visakhapatnam</button>
+				<a href='visakhapatnam'>
+					<button >visakhapatnam</button>
 				</a>
-				<a href='vizianagaram.html'>
-					<button>vizianagaram</button>
+				<a href='vizianagaram'>
+					<button >vizianagaram</button>
 				</a>
-				<a href='westgodavari.html'>
-					<button>west godavari</button>
+				<a href='westgodavari'>
+					<button >west godavari</button>
 				</a>
+			</div>
+			<div class = "pic1">
+				<p>vdxvxf
+				He sat staring at the person in the train stopped at the station going in the opposite direction. She sat staring ahead, never noticing that she was being watched. Both trains began to move and he knew that in another timeline or in another universe, they had been happy together.
+What was beyond the bend in the stream was unknown. Both were curious, but only one was brave enough to want to explore. That was the problem. There was always one that let fear rule her life.
+She tried not to judge him. His ratty clothes and unkempt hair made him look homeless. Was he really the next Einstein as she had been told? On the off chance it was true, she continued to try not to judge him.
+Debbie put her hand into the hole, sliding her hand down as far as her arm could reach. She wiggled her fingers hoping to touch something, but all she felt was air. She shifted the weight of her body to try and reach an inch or two more down the hole. Her fingers still touched nothing but air.
+The cab arrived late. The inside was in as bad of shape as the outside which was concerning, and it didn't appear that it had been cleaned in months. The green tree air-freshener hanging from the rearview mirror was either exhausted of its scent or not strong enough to overcome the other odors emitting from the cab. The correct decision, in this case, was to get the hell out of it and to call another cab, but she was late and didn't have a choice.
+He heard the loud impact before he ever saw the result. It had been so loud that it had actually made him jump back in his seat. As soon as he recovered from the surprise, he saw the crack in the windshield. It seemed to be an analogy of the current condition of his life.
+The words hadn't flowed from his fingers for the past few weeks. He never imagined he'd find himself with writer's block, but here he sat with a blank screen in front of him. That blank screen taunting him day after day had started to play with his mind. He didn't understand why he couldn't even type a single word, just one to begin the process and build from there. And yet, he already knew that the eight hours he was prepared to sit in front of his computer today would end with the screen remaining blankHe sat staring at the person in the train stopped at the station going in the opposite direction. She sat staring ahead, never noticing that she was being watched. Both trains began to move and he knew that in another timeline or in another universe, they had been happy together.
+What was beyond the bend in the stream was unknown. Both were curious, but only one was brave enough to want to explore. That was the problem. There was always one that let fear rule her life.
+She tried not to judge him. His ratty clothes and unkempt hair made him look homeless. Was he really the next Einstein as she had been told? On the off chance it was true, she continued to try not to judge him.
+Debbie put her hand into the hole, sliding her hand down as far as her arm could reach. She wiggled her fingers hoping to touch something, but all she felt was air. She shifted the weight of her body to try and reach an inch or two more down the hole. Her fingers still touched nothing but air.
+The cab arrived late. The inside was in as bad of shape as the outside which was concerning, and it didn't appear that it had been cleaned in months. The green tree air-freshener hanging from the rearview mirror was either exhausted of its scent or not strong enough to overcome the other odors emitting from the cab. The correct decision, in this case, was to get the hell out of it and to call another cab, but she was late and didn't have a choice.
+He heard the loud impact before he ever saw the result. It had been so loud that it had actually made him jump back in his seat. As soon as he recovered from the surprise, he saw the crack in the windshield. It seemed to be an analogy of the current condition of his life.
+The words hadn't flowed from his fingers for the past few weeks. He never imagined he'd find himself with writer's block, but here he sat with a blank screen in front of him. That blank screen taunting him day after day had started to play with his mind. He didn't understand why he couldn't even type a single word, just one to begin the process and build from there. And yet, he already knew that the eight hours he was prepared to sit in front of his computer today would end with the screen remaining blank.He sat staring at the person in the train stopped at the station going in the opposite direction. She sat staring ahead, never noticing that she was being watched. Both trains began to move and he knew that in another timeline or in another universe, they had been happy together.
+Wha.</p>
+
+			</div>
 			</div>
 	</body>
 </html>
-{% endblock %}
